@@ -1,0 +1,40 @@
+
+.iosSlider { width:100%; height:350px; }
+.iosSlider .slider { width:100%; height:350px; }
+.iosSlider .slider .item { width: 100%; height: 349px; margin:0;  }
+.iosSlider .slider #item1 { background: url(../../images/large-stand-banner.png) no-repeat 0 0; }
+.iosSlider .slider #item2 { background: url(http://pimg.co/p/1000x400/123321/fff/img.png) no-repeat 0 0; }
+.iosSlider .slider #item3 { background: url(http://pimg.co/p/1000x400/321321/fff/img.png) no-repeat 0 0; }
+.iosSlider .slider #item4 { background: url(http://pimg.co/p/1000x400/777ggg/fff/img.png) no-repeat 0 0; }
+
+.iosSlider .slider .item .caption { background: #000; opacity: 0.5;  filter: alpha(opacity:50); z-index: 0;  position: absolute; bottom:30px; left:20px; width:350px; padding:20px; text-align:left; }
+.iosSlider .slider .item .caption span { font: normal 11px/15px "Helvetica Neue", Helvetica, Arial, sans-serif; color: #fff; position: relative; top: 0; left: 0; z-index: 1; }
+.iosSlider .slider .item .caption strong { font-size:14px; color:#fff; padding:0 0 10px 0; margin:0 0 20px 0;}
+
+
+.iosSliderButtons { max-width:100%; height:82px; }
+.iosSliderButtons .button { margin:0; width:24.8%; height:50px; opacity: 0.5; float:left;  border-right:1px solid #e7e7e7; background:#fff; border-bottom:3px solid #e7e7e7;  filter: alpha(opacity:50);}
+.iosSliderButtons #item { padding:20px 0 0 0; text-align:center;}
+.iosSliderButtons #item span { padding:0; color:#a9a9a9; font-size:11px;}
+.iosSliderButtons #item strong { padding:0; font-size:14px; color:#505050;}
+.iosSliderButtons #item span:hover {color:#000; }
+.iosSliderButtons #item strong:hover { color:#b14127;}
+.iosSliderButtons .first {}
+.iosSliderButtons .selected {border-bottom:3px solid #993f2a;  color:#000;}
+.iosSliderButtons .button:hover { border-bottom:3px solid #bebebe; color:#b14127;}
+
+/* responsive width */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+}
+@media screen and (min-width:480px) and (max-width:768px) {
+  /* Target landscape smartphones, portrait tablets, narrow desktops  */
+
+.iosSliderButtons .button { width:49%;}
+}
+
+@media screen and (max-width:479px) {
+  /* Target portrait smartphones */
+
+.iosSliderButtons .button { width:100%;}
+}
